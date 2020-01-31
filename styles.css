@@ -1,3 +1,39 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://bit.ly/2U1hCzg);
+    height:100vh;
+    background-size: cover;
+    position: relative;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+.welcome-text{
+    position:absolute;
+    width:600px;
+    height:300px;
+    margin:20% 30%;
+    text-align:center;
+}
+.welcome-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:#fff;
+    text-transform:uppercase;
+    font-size:60px;
+}
+.welcome-text a{
+    border: 1px solid #fff;
+    padding:8px 25px;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size:14px;
+    margin-top:20px;
+    display:inline-block;
+    color:#fff;
+}
+.welcome-text a:hover{
+    background:#fff;
+    color:#333;
+}
 header{
     margin:0;
     padding:0;
@@ -53,44 +89,13 @@ nav ul li a{
     font-size:15px;
     font-weight:bold;
 }
-nav ul li a.active{
-    background:#e2472f;
-    color:#fff;
-    border-radius:6px;
-}
-body{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://bit.ly/2U1hCzg);
-    height:100vh;
-    background-size: cover;
-    position: relative;
-    scroll-behavior: smooth;
-    overflow: hidden;
-}
-.welcome-text{
-    position:absolute;
-    width:600px;
-    height:300px;
-    margin:20% 30%;
-    text-align:center;
-}
-.welcome-text h1{
-    font-family: 'Times New Roman', Times, serif;
+.footer-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(6, 6, 114);
+    color: white;
     text-align: center;
-    color:#fff;
-    text-transform:uppercase;
-    font-size:60px;
-}
-.welcome-text a{
-    border: 1px solid #fff;
-    padding:8px 25px;
-    text-decoration: none;
-    text-transform:uppercase;
-    font-size:14px;
-    margin-top:20px;
-    display:inline-block;
-    color:#fff;
-}
-.welcome-text a:hover{
-    background:#fff;
-    color:#333;
+    height: 50px;
 }
